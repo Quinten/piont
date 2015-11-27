@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>PIONT canvas drawing tool</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div id="toolbar-container">
+      <!-- canvas-toolbar-->
+      <button class="normal">img</button>
+      <button class="normal">hide pionts</button>
+      <button class="normal">lock add</button>
+      <button class="normal">actual pixels</button>
+      <input type="text" class="W40" value="w: 256" />
+      <input type="text" class="W40" value="h: 256" />
+      <button class="colorbox"><!-- --></button>
+      <!-- removal -->
+      <button class="normal">remove</button>
+      <!-- translate-toolbar -->
+      <button class="normal">lock x</button>
+      <input type="text" class="W40" value="x: 0" />
+      <button class="normal">lock y</button>
+      <input type="text" class="W40" value="y: 0" />
+      <!-- transform-toolbar -->
+      <button class="invert">unlock scaleX</button>
+      <input type="text" class="W40" value="w: 100" />
+      <button class="invert">unlock scaleY</button>
+      <input type="text" class="W40" value="h: 100" />
+      <button class="invert">unlock rotation</button>
+      <input type="text" class="W40" value="a: 180" />
+      <!-- piont-toolbar -->
+      <button class="normal">line split</button>
+      <button class="normal">triangle split</button>
+      <button class="normal">rect split</button>
+      <button class="normal">circle split</button>
+      <button class="normal">round rect split</button>
+      <button class="invert">unlock snapping</button>
+      <!-- line-toolbar -->
+      <button class="normal">curve 1</button>
+      <button class="normal">curve 2</button>
+      <button class="normal">middle split</button>
+      <button class="normal">join at 1st</button>
+      <button class="normal">join at 2nd</button>
+      <!-- stroke-toolbar -->
+      <button class="normal">stroke</button>
+      <button class="colorbox"><!-- --></button>
+      <input type="text" class="W40" value="w: 1" />
+      <!-- fill-toolbar -->
+      <button class="invert">fill</button>
+      <button class="colorbox"><!-- --></button>
+      <!-- color-toolbar -->
+      <input type="text" class="W40" value="r: 255" />
+      <input type="text" class="W40" value="g: 255" />
+      <input type="text" class="W40" value="g: 255" />
+      <input type="text" class="W40" value="a: 1" />
+      <input type="text" class="W52" value="#FFFFFF" />
+      <button class="normal">picker</button>
+      <button class="normal">done</button>
+      <div class="clear"><!-- --></div>
+    </div>
+    <canvas id="UIcanvas"><!-- --></canvas>
+    <script type="text/javascript" src="js/piont.js"></script>
+  </body>
+</html>

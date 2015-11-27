@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background: #ddd;
+}
+
+.clear {
+  clear: both;
+  height: 0px;
+}
+
+.W40 {
+  width: 40px;
+}
+
+.W52 {
+  width: 52px;  
+}
+
+#toolbar-container {
+  padding: 0 0 6px 6px;
+  background: #fff;
+}
+
+input[type=text], button.normal, button.invert {
+  -webkit-appearance: none;
+  line-height: 12px;
+  font-size: 12px;
+  padding: 6px;
+  margin: 6px 6px 0 0;
+  float:left;
+  border: #777 1px solid;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-family: sans-serif;  
+}
+
+input[type=text], button.normal {
+  color: #777; 
+  background: #fff;  
+}
+
+button.invert {
+  color: #fff;
+  background: #777;  
+}
+
+button.normal, button.invert {
+  height: 26px;
+}
+
+input[type=text] {
+  height: 12px;
+}
+
+input:focus {
+  outline: none;
+  border: #0ff 2px solid;
+  padding: 5px; 
+}
+
+button {
+  cursor: pointer;
+}
+
+.colorbox {
+  width: 26px;
+  height: 26px;
+  margin: 6px 6px 0 0;
+  float:left;
+  border: #777 1px solid;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #f00;  
+}
